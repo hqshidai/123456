@@ -1,0 +1,46 @@
+生产用url
+
+sh13
+导航
+NaviVW18
+http://localhost:22200
+http://robot-business-proxy.centaurstech.com/api/form/navigation
+
+
+#keywords
+#hello
+#clear
+#update
+
+NERURL|http://localhost:22200
+options|disable_knowledge_qa,fast_understanding,simple_post,single_active,local_graph,delete_chat,query_text_transfer,exact_value,pattern_cover,no_repeat
+idlelimit|60000
+
+
+导航小中控
+NavCps	NavCpsVW11	http://localhost:22200	sh13	http://robot-business-proxy.centaurstech.com/api/form/navigation/central/v2
+
+#keywords
+#hello
+#clear
+#update
+
+NERURL|http://localhost:22200
+options|disable_knowledge_qa,fast_understanding,simple_post,single_active,local_graph,delete_chat,query_text_transfer,exact_value,pattern_cover,no_repeat
+idlelimit|60000
+
+
+
+电影	MovieticTest	MovieticVW12	http://localhost:22200	sh13	http://robot-business-proxy.centaurstech.com/api/form/cinema
+
+NERURL|http://localhost:22200
+options|disable_knowledge_qa,fast_understanding,simple_post,single_active,local_graph,delete_chat,query_text_transfer,exact_value,rule_semantic_cover,no_repeat
+idlelimit|60000
+
+
+姓名      导航        景点  rule    平均     平均
+吴马超                878   482     175.6    96.4      114
+吴金丽                      799              159.8     159.8
+罗景月                1137  466     227.4    89.2      112
+王璐雅    684   120   620   199     260.8    63.8      90          460    53           224  67
+林雨婷          66    651   126     217      42        63.7               66
